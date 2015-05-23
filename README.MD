@@ -11,3 +11,6 @@ on the basis of a training set of data containing observations (or instances) wh
 - log_reg_classification : Logistic regression measures the relationship between the categorical dependent variable and one or more 
                         independent variables, which are usually (but not necessarily) continuous, by estimating probabilities. 
 
+- svm_classification : An SVM model is a representation of the examples as points in space, mapped so that the examples of the 
+                       separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into 
+                       that same space and predicted to belong to a category based on which side of the gap they fall on.
