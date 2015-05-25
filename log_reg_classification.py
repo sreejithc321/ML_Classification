@@ -27,5 +27,3 @@ log_reg = LogisticRegression()
 log_reg.fit(train_data,train_class)
 pred_class = log_reg.predict(test_data)
 print " cross validation accuracy : ",metrics.accuracy_score(test_class,pred_class)
-
-

@@ -1,8 +1,7 @@
-
 # Classification
 
-Classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, 
-on the basis of a training set of data containing observations (or instances) whose category membership is known.
+Classification is the problem of identifying to which of a set of categories a new observation belongs, 
+on the basis of a training set of data containing observations whose category membership is known.
 
 - K Nearest Neighbors : knn_classification.py
 

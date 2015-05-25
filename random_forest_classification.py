@@ -1,4 +1,3 @@
-
 from sklearn.datasets import load_iris
 from sklearn import svm
 from sklearn import metrics
