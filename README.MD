@@ -4,13 +4,10 @@
 Classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, 
 on the basis of a training set of data containing observations (or instances) whose category membership is known.
 
-- knn_classification : In k-NN classification, the output is a class membership. An object is classified by a majority vote of its neighbors, 
-        with the object being assigned to the class most common among its k nearest neighbors. 
-        If k = 1, then the object is simply assigned to the class of that single nearest neighbor.
-        
-- log_reg_classification : Logistic regression measures the relationship between the categorical dependent variable and one or more 
-                        independent variables, which are usually (but not necessarily) continuous, by estimating probabilities. 
+- K Nearest Neighbors : knn_classification.py
 
-- svm_classification : An SVM model is a representation of the examples as points in space, mapped so that the examples of the 
-                       separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into 
-                       that same space and predicted to belong to a category based on which side of the gap they fall on.
+- Logistic regression : log_reg_classification.py 
+
+- Support Vector Machine : svm_classification.py
+
+- Random forest : random_forest_classification.py
