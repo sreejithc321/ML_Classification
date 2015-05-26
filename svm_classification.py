@@ -26,3 +26,4 @@ train_data,test_data,train_class,test_class = train_test_split(iris.data,iris.ta
 clf.fit(train_data,train_class)
 pred_class = clf.predict(test_data)
 print " cross validation accuracy : ",metrics.accuracy_score(test_class,pred_class)
+
