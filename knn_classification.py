@@ -26,3 +26,4 @@ train_data,test_data,train_class,test_class = train_test_split(iris.data,iris.ta
 knn.fit(train_data,train_class)
 pred_class = knn.predict(test_data)
 print "k = 5, cross validation accuracy : ",metrics.accuracy_score(test_class,pred_class)
+
