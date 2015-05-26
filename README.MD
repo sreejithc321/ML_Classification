@@ -5,8 +5,10 @@ on the basis of a training set of data containing observations whose category me
 
 - K Nearest Neighbors : knn_classification.py
 
-- Logistic regression : log_reg_classification.py 
+- Logistic Regression : log_reg_classification.py 
 
 - Support Vector Machine : svm_classification.py
 
-- Random forest : random_forest_classification.py
+- Random Forest : random_forest_classification.py
+
+- Decision Tree : cart_classification.py

@@ -3,13 +3,15 @@ from sklearn import svm
 from sklearn import metrics
 from sklearn.cross_validation import train_test_split
 
+# SVM classifier 
+clf = svm.SVC()
+
 # load data
 iris = load_iris()
 train_data = iris.data
 train_class = iris.target
 
 ### test on sample data
-clf = svm.SVC()
 clf.fit(train_data,train_class)
 text_data = [[3, 5, 4, 2], [5, 4, 3, 2]]
 print " sample data prediction : ",clf.predict(text_data)

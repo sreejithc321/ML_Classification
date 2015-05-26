@@ -1,8 +1,10 @@
 from sklearn.datasets import load_iris
-from sklearn import svm
 from sklearn import metrics
 from sklearn.ensemble import RandomForestClassifier 
 from sklearn.cross_validation import train_test_split
+
+# Random Forest
+forest = RandomForestClassifier(n_estimators = 100)
 
 # load data
 iris = load_iris()
@@ -10,7 +12,6 @@ train_data = iris.data
 train_class = iris.target
 
 ### test on sample data
-forest = RandomForestClassifier(n_estimators = 100)
 forest.fit(train_data,train_class)
 text_data = [[3, 5, 4, 2], [5, 4, 3, 2]]
 print " sample data prediction : ",forest.predict(text_data)
