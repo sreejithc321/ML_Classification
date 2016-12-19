@@ -3,6 +3,8 @@
 Classification is the problem of identifying to which of a set of categories a new observation belongs, 
 on the basis of a training set of data containing observations whose category membership is known.
 
+- iris_data.py
+
 - K Nearest Neighbors : knn_classification.py
 
 - Logistic Regression : log_reg_classification.py 
