@@ -16,3 +16,5 @@ on the basis of a training set of data containing observations whose category me
 - Random Forest : random_forest_classification.py
 
 - Decision Tree : cart_classification.py
+
+- Lime : car_evaluation.ipynb
